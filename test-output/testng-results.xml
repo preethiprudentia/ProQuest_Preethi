@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="ProQuest_Preethi" duration-ms="21872" started-at="2020-03-04T04:18:24Z" finished-at="2020-03-04T04:18:46Z">
+  <suite name="Default suite" duration-ms="29857" started-at="2020-03-04T06:06:32Z" finished-at="2020-03-04T06:07:02Z">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="21872" started-at="2020-03-04T04:18:24Z" finished-at="2020-03-04T04:18:46Z">
-      <class name="com.proquest.basics.Screenshot">
-        <test-method status="FAIL" signature="ss()[pri:0, instance:com.proquest.basics.Screenshot@25bbe1b6]" name="ss" duration-ms="21846" started-at="2020-03-04T04:18:24Z" finished-at="2020-03-04T04:18:46Z">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problem: 
-FileUtils cannot be resolved
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-FileUtils cannot be resolved
-
-at com.proquest.basics.ITest.onTestSuccess(ITest.java:29)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:70)
-at org.testng.internal.Invoker.runTestListeners(Invoker.java:1388)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:633)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+    <test name="Default test" duration-ms="29857" started-at="2020-03-04T06:06:32Z" finished-at="2020-03-04T06:07:02Z">
+      <class name="com.proquest.basics.TitlesToTextFile">
+        <test-method status="PASS" signature="textfile()[pri:0, instance:com.proquest.basics.TitlesToTextFile@9629756]" name="textfile" duration-ms="29822" started-at="2020-03-04T06:06:32Z" finished-at="2020-03-04T06:07:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ss -->
-      </class> <!-- com.proquest.basics.Screenshot -->
-    </test> <!-- Regression -->
-  </suite> <!-- ProQuest_Preethi -->
+        </test-method> <!-- textfile -->
+      </class> <!-- com.proquest.basics.TitlesToTextFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
