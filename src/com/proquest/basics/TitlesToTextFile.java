@@ -1,5 +1,9 @@
 package com.proquest.basics;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -21,10 +25,30 @@ public class TitlesToTextFile {
 		search.sendKeys("Proquest");
 		search.sendKeys(Keys.ENTER);
 		
+		List<WebElement> allLinks = driver.findElements(By.tagName("a"));
+		for(WebElement link:allLinks)
+		{
+			 System.out.println(link.getText() + " - " + link.getAttribute("href"));
+			 }
 		
+//		
+//		FileWriter write = new FileWriter("D:\\ProQuest\\SearchResults.txt");
+//		
+//		for (int i=0; i<allLinks.size(); i++) 
+//		{
+//			String text = allLinks.get(i).getText();
+//			System.out.println(text);
+//		       
+//				 BufferedWriter out = new BufferedWriter(write); 
+//				 write.append(text);
+//				 
+//				 out.write(text);
+//				 out.flush();
+	}
 		
-		driver.quit();
-
+//		
+//		
+	
 	}
 	
 
