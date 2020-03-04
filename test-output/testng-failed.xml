@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ProQuest_Preethi]">
+  <listeners>
+    <listener class-name="com.proquest.basics.ITest"/>
+  </listeners>
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="com.proquest.basics.Screenshot">
+        <methods>
+          <include name="ss"/>
+        </methods>
+      </class> <!-- com.proquest.basics.Screenshot -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [ProQuest_Preethi] -->
